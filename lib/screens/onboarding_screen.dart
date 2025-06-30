@@ -14,11 +14,8 @@ class OnboardingScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             // Gambar onboarding (sesuai gambar referensi)
-            Image.asset(
-              'assets/images/onboarding_image.png', // Pastikan gambar ini ada di assets/images/
-              height: MediaQuery.of(context).size.height * 0.4, // Sesuaikan ukuran gambar
-              fit: BoxFit.contain,
-            ),
+            Image.asset('assets/images/DekorinLogo.png', height: MediaQuery.of(context).size.height * 0.4, // Sesuaikan ukuran gambar
+              fit: BoxFit.contain,), // Perhatikan kapitalisasi 'DekorinLogo.png'
             const SizedBox(height: 40),
             const Text(
               'WELCOME TO DEKORIN',
@@ -31,7 +28,7 @@ class OnboardingScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const Text(
-              'Dekorin menyediakan jasa dekorasi berbagai konteks, seperti acara pernikahan, pesta ulang tahun, perayaan hari besar, atau sekadar mempercantik interior rumah baik indoor maupun outdoor dan ruang kerja.',
+              'Dekorasi untuk Segala Momen',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,
